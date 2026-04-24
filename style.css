@@ -4,4 +4,15 @@ body{
 
 #naglowek{
     text-align: center;
+    font-size: 200%;
+    -webkit-text-stroke: 0.9px rgb(0, 0, 0);
+    color: rgb(255, 160, 255)
+}
+
+#btntajny{
+    border: 2px solid rgb(255, 70, 255);
+    background-color: rgb(255, 160, 255);
+    border-radius: 15%;
+    font-size: 120%;
+    margin-left: 20%;
 }
