@@ -1,0 +1,1 @@
+document.getElementById("btnwroc").addEventListener("click", (przenies) => {window.location.href = "../index.html"});
