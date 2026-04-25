@@ -7,3 +7,5 @@ document.getElementById("btntajny").addEventListener("click", (przenies) => {
             console.log("Błąd!");
         }
     });
+
+    document.getElementById("btnwyjazd").addEventListener("click", (przenies) => {window.location.href = "Wyjazdy/wyjazd.html"});

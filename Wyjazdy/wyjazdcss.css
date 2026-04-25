@@ -9,10 +9,15 @@ body{
     color: rgb(255, 160, 255)
 }
 
-#btntajny, #btnwyjazd{
+#btnwroc{
     border: 2px solid rgb(255, 70, 255);
     background-color: rgb(255, 160, 255);
-    border-radius: 15%;
-    font-size: 100%;
-    margin-left: 10%;
+    border-radius: 5%;
+    font-size: 75%;
+    margin-left: 2%;
+}
+
+#historia{
+    margin-left: 2%;
+    text-align: left;
 }
