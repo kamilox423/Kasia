@@ -1,3 +1,13 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  border: 5px solid rgb(255, 70, 255);
+  box-sizing: border-box;
+}
+
 body{
     background-color: rgb(255, 173, 255);
 }
@@ -12,6 +22,22 @@ body{
 #btntajny, #btnwyjazd{
     border: 2px solid rgb(255, 70, 255);
     background-color: rgb(255, 160, 255);
+    border-radius: 15%;
+    font-size: 100%;
+    margin-left: 10%;
+}
+
+#btntajny:hover, #btnwyjazd:hover{
+    border: 2px solid rgb(253, 50, 253);
+    background-color: rgb(255, 100, 255);
+    border-radius: 15%;
+    font-size: 100%;
+    margin-left: 10%;
+}
+
+#btntajny:active, #btnwyjazd:active{
+    border: 2px solid rgb(253, 50, 128);
+    background-color: rgb(175, 74, 133);
     border-radius: 15%;
     font-size: 100%;
     margin-left: 10%;

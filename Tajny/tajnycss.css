@@ -9,13 +9,31 @@ body{
     color: rgb(255, 160, 255)
 }
 
-#btnwroc{
-    border: 2px solid rgb(255, 70, 255);
-    background-color: rgb(255, 160, 255);
-    border-radius: 5%;
-    font-size: 75%;
-    margin-left: 2%;
-}
+
+    #btnwroc{
+        border: 2px solid rgb(255, 70, 255);
+        background-color: rgb(255, 160, 255);
+        border-radius: 5%;
+        font-size: 75%;
+        margin-left: 2%;
+    }
+
+    #btnwroc:hover{
+        border: 2px solid rgb(253, 50, 253);
+        background-color: rgb(255, 100, 255);
+        border-radius: 5%;
+        font-size: 75%;
+        margin-left: 2%;
+    }
+
+    #btnwroc:active{
+        border: 2px solid rgb(253, 50, 128);
+        background-color: rgb(175, 74, 133);
+        border-radius: 5%;
+        font-size: 75%;
+        margin-left: 2%;
+    }
+
 
 #infop{
     text-align: center;
