@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,5 +14,10 @@
     <br>
     <button id="btntajny">Tajny</button>
     <script src="main.js"></script>
+    <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+    </script>
 </body>
 </html>
